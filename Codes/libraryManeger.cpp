@@ -79,7 +79,7 @@ void temp :: showAll(){
 void temp :: extractBook(){
 
     showAll();
-    cout<<"Enter Book Id :: ";
+    cout<<"Enter Book Id : ";
     getline(cin,search);
 
     file.open("bookData.txt",ios :: in);
