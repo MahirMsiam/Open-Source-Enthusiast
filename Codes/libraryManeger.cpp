@@ -53,7 +53,7 @@ void temp :: addBook(){
     getline(cin,id);
     cout<<"Enter Book Name :: ";
     getline(cin,name);
-    cout<<"Enter Book's Author name :: ";
+    cout<<"Enter Book's Author name : ";
     getline(cin,author);
 
     file.open("bookData.txt",ios :: out | ios :: app);
