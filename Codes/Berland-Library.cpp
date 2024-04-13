@@ -3,10 +3,11 @@
 #include <set>
 #include <math.h>
 #include <vector>
+using namespace std;
 int32_t main(){
     int n;
     cin>>n;
-    char s[n]; 
+    char s[n];
     int a[n];
     for(int i=0;i<n;i++) cin>>s[i]>>a[i];
     bool visited[1000001]={false};
@@ -27,4 +28,4 @@ int32_t main(){
     }
     cout<<ans<<endl;
     return 0;
-} 
+}
