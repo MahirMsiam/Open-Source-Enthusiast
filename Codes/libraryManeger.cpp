@@ -49,7 +49,7 @@ int main(){
     return 0;
 }
 void temp :: addBook(){
-    cout<<"\nEnter Book ID :: ";
+    cout<<"\nEnter Book ID : ";
     getline(cin,id);
     cout<<"Enter Book Name :: ";
     getline(cin,name);
