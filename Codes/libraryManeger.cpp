@@ -22,7 +22,7 @@ int main(){
     cout<<"3-Add books(ADMIN)"<<endl;
     cout<<"4-Exit"<<endl;
     cout<<"----------------------------------"<<endl;
-    cout<<"Enter Your Choice :: ";
+    cout<<"Enter Your Choice : ";
     cin>>choice;
 
     switch(choice){
