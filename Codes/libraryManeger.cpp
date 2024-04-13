@@ -51,7 +51,7 @@ int main(){
 void temp :: addBook(){
     cout<<"\nEnter Book ID : ";
     getline(cin,id);
-    cout<<"Enter Book Name :: ";
+    cout<<"Enter Book Name : ";
     getline(cin,name);
     cout<<"Enter Book's Author name : ";
     getline(cin,author);
