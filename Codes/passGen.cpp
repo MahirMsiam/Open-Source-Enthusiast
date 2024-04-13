@@ -20,7 +20,7 @@ string getPassword(int length){
 int main(){
 
     int length;
-    cout<<"Enter the length of the Password :: ";
+    cout<<"Enter the length of the Password : ";
     cin>>length;
     string password = getPassword(length);
     cout<<"Genrated Password :: "<<password;
